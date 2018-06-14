@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Bookmark</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Raleway:400,700" rel="stylesheet">
+</head>
+<body onload="getWebs()">
+	<div class="container">
+		<div class="head">
+			<h1>Bookmark by Samuel Monsalve</h1>
+			<hr>
+			<h2>Agrega una página para poder acceder a ella rápidamente!</h2>
+
+			<form id="form" action="">
+				<label for="#page">Nombre de la web</label>
+				<input type="text" id="page">
+				<label for="#url">URL</label>
+				<input type="text" id="url">
+				<input id="btn-sub" type="submit" value="Agregar">
+			</form>
+		</div>
+
+		<div id="bookmarks-div">
+			
+		</div>
+	</div>
+	
+	<script src="main.js"></script>
+</body>
+</html>

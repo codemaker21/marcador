@@ -1,0 +1,109 @@
+*
+	margin: 0
+	padding: 0
+	body
+		box-sizing: border-box
+		background-color: #040605
+		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%2327a32b' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E")
+		.container
+			width: 85%
+			max-width: 900px
+			margin: 0 auto
+			color: #fff
+			.head
+				background: rgba(#6CB04F, .4)
+				padding: 30px
+				margin-top: 30px
+				margin-bottom: 30px
+				border-radius: 20px
+				h1
+					font-family: 'Raleway', sans-serif
+					font-weight: 700
+					margin: 15px 0
+					font-size: 40px
+					text-align: center
+				//hr
+				h2
+					font-family: 'Nunito', sans-serif
+					font-weight: 700
+					margin-top: 15px
+					font-size: 30px
+					text-align: center
+
+				#form
+					margin-top: 40px
+					overflow: hidden
+					label
+						font-family: 'Nunito', sans-serif
+						font-weight: 400
+						font-size: 25px
+					input[type="text"]
+						display: block
+						width: 80%
+						margin: 10px 0
+						padding: 8px
+						border: 3px solid rgba(#6CB04F, .4)
+						color: #000
+						font-family: 'Nunito', sans-serif
+						font-weight: 400
+						font-size: 18px
+					input[type="text"]:focus
+						border: 3px solid #27C922
+					input[type="submit"]
+						margin-top: -20px
+						padding: 15px 20px
+						font-family: 'Raleway', sans-serif
+						font-weight: 700
+						background: rgba(#000, .6)
+						border: 3px solid #000
+						float: right
+						font-size: 20px
+						color: #fff
+						cursor: pointer
+					input[type="submit"]:hover
+						background: rgba(#27C922, .7)
+
+
+			#bookmarks-div
+				color: #fff
+				background: rgba(#27C922, .7)
+				padding: 30px
+				font-size: 20px
+				border-radius: 20px
+				.box
+					border-top: 2px solid #000
+					margin-top: 10px
+					h3
+						margin: 10px 0 10px 0
+						text-transform: capitalize
+						font-family: 'Raleway', sans-serif
+						font-weight: 700
+						text-align: center
+						.btn-visit
+							text-decoration: none
+							color: #fff
+							font-family: 'Raleway', sans-serif
+							font-weight: 700
+							background: rgba(#000, .6)
+							padding: 15px
+							border: 1px solid #000
+							border-radius: 3px
+							display: block
+							width: 45%
+							margin: 0 auto
+						.btn-visit:hover
+							background: #1870BC
+						.btn-delete
+							text-decoration: none
+							color: #fff
+							font-family: 'Raleway', sans-serif
+							font-weight: 700
+							background: rgba(#000, .6)
+							padding: 15px
+							border: 1px solid #000
+							border-radius: 3px
+							display: block
+							width: 45%
+							margin: 0 auto
+						.btn-delete:hover
+							background: #EF0B0B
